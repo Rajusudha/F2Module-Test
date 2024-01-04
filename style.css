@@ -1,0 +1,118 @@
+body {
+    background-color:rgb(31, 31, 31)
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #top {
+    width: 100vw;
+    height: 200px;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #para {
+    width: 92px;
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(94, 96, 206, 1);
+  }
+  
+  #mid {
+    width: 736px;
+    height: 54px;
+    margin-top: -27px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  input{
+      height: 54px;
+      width: 628px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(38, 38, 38, 1);
+      padding-left: 15px;
+      color: white;
+      font-size: larger;
+  }
+  #btn{
+      height: 54px;
+      width: 90px;
+      background-color: rgba(30, 111, 159, 1);
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: small;
+      font-weight: 700;
+  }
+  #btn:hover{
+      cursor: pointer;
+  }
+  
+  #currTodo{
+      display: flex;
+      justify-content: space-between;
+      width: 736px;
+      margin-left: 400px;
+      margin-top: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      font-weight: 600;
+  }
+  #p1{
+      color: rgba(78, 168, 222, 1);
+  }
+  #p2{
+      color: rgba(130, 132, 250, 1);
+  
+  }
+  #info{
+      display: flex;
+      justify-content: space-between;
+      width: 736px;
+      margin-left: 400px;
+      margin-top: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      font-weight: 600;
+  }
+  #p3{
+      color: rgba(78, 168, 222, 1);
+  }
+  #p4{
+      color: rgba(130, 132, 250, 1);
+  
+  }
+  #container{
+      width: 736px;
+      height: 500px;
+      margin-left: 400px;
+      margin-top: 25px;
+      overflow-y: scroll;
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;;
+  }
+  ::-webkit-scrollbar{
+      display: none;
+  }
+  
+  .card{
+      width: 730px;
+      height: 72px;
+      box-sizing: border-box;
+      padding: 16px;
+      margin: 5px;
+      border-radius: 8px;
+      border: 1px;
+      gap: 12px;
+      color: white;
+      background: linear-gradient(0deg, #333333, #333333),
+      linear-gradient(0deg, #262626, #262626);
+      display: flex;
+      justify-content: space-between;
+  }
